@@ -1,6 +1,6 @@
 import sys
-import logger
-# from src.mlproject.logger import logging
+
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
@@ -21,10 +21,10 @@ class CustomException(Exception):
     
 
 
-# if __name__ == "__main.py__":
+# if __name__ == "__main__":
 #     try :
 #         a=1/0
 
-#     except :
-#         logger.info ("Logging has stared")
-#         raise CustomException
+#     except Exception as e:
+#         logging.info ("Logging has stared")
+#         raise CustomException(e,sys)

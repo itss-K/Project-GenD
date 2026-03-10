@@ -1,5 +1,11 @@
-pandas
 numpy
+pandas
+python-dotenv
+mysql-connector-python
+pymysql
+scikit-learn
 seaborn
--e .
-# to trigger the setup.py
+catboost
+xgboost
+mlflow
+#-e .
