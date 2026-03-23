@@ -1,1 +1,1 @@
-# End to End ML project with Flask Deployment
+# End to End ML project for Taxi fare charges (supervised learning) with Flask Deployment
